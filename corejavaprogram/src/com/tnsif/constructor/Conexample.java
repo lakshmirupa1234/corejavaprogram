@@ -11,7 +11,17 @@ public class Conexample {
 		System.out.println("welcome");
 	}
 	
-	Conexample(int i,int j)
-	[]
+	Conexample(int i,int j){
+		System.out.println("helloworld");
+		
+}
+	Conexample(int i,String n){
+		System.out.println("different type");
+	}
+	public static void main(String[] args) {
+		Conexample c=new Conexample();
+		Conexample c1=new Conexample(6);
+		Conexample c2=new Conexample(8,"t");
+	}
 
 }

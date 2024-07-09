@@ -1,6 +1,9 @@
 package com.tnsif.overriding;
 
 public class Father {
-	void drinking ()
+	void drinking () {
+		System.out.println("tea");
+		
+	}
 
 }
