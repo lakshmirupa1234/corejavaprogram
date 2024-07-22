@@ -2,7 +2,7 @@ package com.tnsif.arraylistdemo;
 
 import java.util.ArrayList;
 import java.util.Iterator;
-//demo for generics
+//demo for generic
 public class Testgenerics {
 	public static void main(String[] args) {
 		
